@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="main">#dfa44c</color>
+    <color name="main_bg">#2a929292</color>
+    <color name="status_bar">#ba833e</color>
+    <color name="nav_selected_background">#f7f7f7</color>
+    <color name="bg">#45abee</color>
+    <color name="gray_light_dark">#c1c1c1</color>
+    <color name="mask">#48c1c1c1</color>
+    <color name="light_grey">#bfbfbf</color>
+    <color name="trsnparent">#80000000</color>
+
+</resources>

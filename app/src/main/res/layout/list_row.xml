@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mask">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/track_history_item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/booking_trip_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/bId_223222" />
+
+                <TextView
+                    android:id="@+id/booking_trip_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/mask"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp"
+                android:text="@string/drivers_name"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:id="@+id/driver_nameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/_0005_driver_name"
+                android:maxLines="3"
+                android:text="dafdafda"
+
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/mask" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp"
+                android:text="@string/vehicle_number"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:id="@+id/vehicle_numberID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/_0004_vehicle_number"
+                android:maxLines="3"
+                android:text="dafdafda" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/mask" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp"
+                android:text="@string/payment"
+                android:textColor="@color/light_grey" />
+
+            <TextView
+                android:id="@+id/paymentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:drawableStart="@drawable/_0003_payment"
+                android:text="dafdafda" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

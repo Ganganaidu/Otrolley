@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Otrolly Driver</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="signin">Login</string>
+    <string name="signup">Register</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_trip_history">Trip History</string>
+    <string name="nav_item_wallet">Wallet</string>
+    <string name="nav_item_performance">Performance</string>
+    <string name="nav_item_manage_fleet">Manage Fleet</string>
+    <string name="nav_item_track">Track</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_trip_history</item>
+        <item>@string/nav_item_track</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="operation_failed">Operation Failed, Try Again.</string>
+
+    <!---->
+    <string name="error_connect">Failed to connect</string>
+
+    <string name="GPSAlertDialogTitle">Location</string>
+    <string name="GPSAlertDialogMessage">Location Services not available</string>
+    <string name="provider_settings_message">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="provider_settings_yes">Yes</string>
+    <string name="provider_settings_no">No</string>
+
+
+    <!--Trip History-->
+    <string name="id_223222">ID : 223222</string>
+    <string name="bId_223222">Booking ID : ^</string>
+    <string name="date">Date</string>
+    <string name="drivers_name">Driver\'s Name</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="payment">Payment</string>
+
+    <!--Track HIstory Details-->
+    <string name="distance">Distance</string>
+    <string name="drive_time">Drive Time</string>
+    <string name="wait_time">Wait Time</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="number_of_shops">No: of Shops</string>
+    <string name="pickup">Pickup</string>
+    <string name="stops">Stops</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <!--Trip Request-->
+    <string name="send">SEND</string>
+
+    <string name="drop_your_pin">Drop your pin</string>
+    <string name="select_location">Please select a location</string>
+    <string name="done">DONE</string>
+    <string name="apply">APPLY</string>
+    <string name="ok">OK</string>
+
+    <!--Wallet Tab Summary & Deposits-->
+    <string name="total_earning">Total Earning</string>
+    <string name="next_deposit">Next deposit on </string>
+    <string name="rs_240">Rs.240</string>
+    <string name="week">Week 3</string>
+    <string name="made_during">Made during 23/10/2015</string>
+    <string name="earnings_this_week">Earnings this week (week dates here)</string>
+    <string name="number_of_tips">Number of tips</string>
+    <string name="random_number">23</string>
+    <string name="settlement_number">23</string>
+    <string name="summary">SUMMARY</string>
+    <string name="deposits">DEPOSITS</string>
+
+    <string name="google_server_key">AIzaSyCTlGXKzaogREFB_xIXOmgt_PM9Uf5vOxw</string>
+
+    <string name="location">Location</string>
+    <string name="location_desc">Location permission is needed to display your current location, would you like to reconsider?</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="contacts_des">Contacts permission is needed to list of contacts in your phone, would you like to reconsider?</string>
+
+    <string name="unload_trip">START UNLOADING</string>
+    <string name="submit_trip">SUBMIT TRIP</string>
+    <string name="complete_trip">No more Drop Locations,complete the trip</string>
+    <string name="reached_dest">REACHED DESTINATION</string>
+    <string name="reject">REJECT</string>
+    <string name="start_to_dest">START TO ^</string>
+    <string name="start_to_d">START TO D1</string>
+    <string name="start_to_dest_com">START TO</string>
+    <string name="at_pic_loc">AT PICKUP LOCATION</string>
+    <string name="start_to_pic">START TO PICKUP</string>
+    <string name="navigate">NAVIGATE</string>
+    <string name="refresh">REFRESH</string>
+    <string name="start_next_trip">Start next trip after unloading</string>
+    <string name="next_trip">Next trip started</string>
+    <string name="trip_started">Trip started</string>
+    <string name="loading_wait">Loading map please wait..</string>
+    <string name="trip_req_from">Trip Request From</string>
+    <string name="pic_up_loc">Pickup Location</string>
+    <string name="tap_hold">Tap &amp; Hold to start taking requests</string>
+    <string name="pick_loc_dis_km">Pickup address is ^ KM from your location</string>
+    <string name="reach_pick_to_start_trip">Reach pickup address to start the trip, hit refresh to update your location</string>
+    <string name="pick_loc_duration">And duration is ^ min</string>
+    <string name="incoming_request">Incoming trip request from ^</string>
+
+
+    <string name="vechical_number">Vehicle Registration Number</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+
+    <!--cupon-->
+    <string name="submit_rating">SUBMIT RATING</string>
+    <string name="submit">SUBMIT</string>
+    <string name="coupon_number">Enter coupon number</string>
+    <string name="invalid_coupon">In valid coupon</string>
+    <string name="no_drop_loc">No Drop location to display</string>
+    <string name="discount_text">You got RS ^ discount</string>
+    <string name="trip_invalid_coupon">Cannot apply coupon for this trip</string>
+    <string name="trip_end_msg">You have delivered all the goods as per the sendr\'s request.</string>
+    <string name="rate_this_sender">RATE THIS SENDER</string>
+    <string name="total_bill_is">Total Bill : RS. ^</string>
+    <string name="id_trip">ID RS. ^</string>
+    <string name="rs_trip">RS. ^ /-</string>
+    <string name="no_drop_loc_req">NO DROP LOCATIONS</string>
+    <string name="please_wait_for">Please wait for the customer to add drop locations</string>
+    <string name="no_droploc_msg">Please wait for the customer to add drop locations \n\n\n We will update trip status once we got the drop locations</string>
+    <string name="complete_trip_msg">Complete trip to access this option</string>
+
+
+</resources>

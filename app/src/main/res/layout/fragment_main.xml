@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--trip stop and start layout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/gps_imagebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/gps" />
+
+        <RelativeLayout
+            android:id="@+id/toggle_bg_layout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round">
+
+            <ToggleButton
+                android:id="@+id/offlineOnlineToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/toggle_selector"
+                android:checked="true"
+                android:textOff=""
+                android:textOn="" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/showIncomeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8ca4a4a4"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/showIncome"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/round">
+
+                <ImageView
+                    android:id="@+id/showIncomeImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/_0002_take_request" />
+
+                <TextView
+                    android:id="@+id/showIncomeText"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/showIncomeImage"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:text="@string/tap_hold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--trip request details-->
+    <RelativeLayout
+        android:id="@+id/trip_request_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/trip_first_dropLocation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:visibility="visible"
+            card_view:cardCornerRadius="4dp">
+
+            <include layout="@layout/trip_request_item_layout" />
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/trip_dropLocation_listlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include layout="@layout/trip_request_details" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
